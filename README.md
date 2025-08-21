@@ -74,6 +74,16 @@ conda activate RNA_2D_stats
 
 ## Usage
 
+### Configuration
+
+Key parameters can be adjusted in the analysis scripts:
+
+- **Maximum stem gap**: Default 6 nucleotides
+- **Minimum stem length**: Default 4 nucleotides
+- **Maximum loop length**: Default 10 nucleotides for stem-loops
+- **Minimum stem length for logos**: Configurable in visualization scripts
+- **Distance analysis parameters**: Customizable in proximity analysis modules
+
 ### Quick Start
 
 1. **Prepare your input file**: Ensure your RNA data is in the two-column tab-separated format described above.
@@ -181,28 +191,6 @@ Each analysis module generates:
 - `mean_distances_stats`: Distance relationship statistics
 - `std_distances_stats`: Standard deviation analysis
 
-## Output Files
-
-### Core Analysis
-- **Length distribution plots**: `length_distribution.png` and `length_distribution_relative.png`
-- **Sequence logos**: `logo_length{X}.png`, `3p_logo_length_{X}.png`, `5p_logo_length_{X}.png`
-- **Statistics files**: `*_stats` files containing detailed numerical summaries
-- **Structural data**: Tab-separated files with sequences and metadata for each motif type
-
-### Additional Analysis
-- **Proximity heatmaps**: Occurrence and distance relationship visualizations
-- **Conservation logos**: Sequence conservation analysis for structural elements
-- **Statistical matrices**: Comprehensive numerical analysis of motif relationships
-
-## Configuration
-
-Key parameters can be adjusted in the analysis scripts:
-
-- **Maximum stem gap**: Default 6 nucleotides
-- **Minimum stem length**: Default 4 nucleotides
-- **Maximum loop length**: Default 10 nucleotides for stem-loops
-- **Minimum stem length for logos**: Configurable in visualization scripts
-- **Distance analysis parameters**: Customizable in proximity analysis modules
 
 ## Citation
 
