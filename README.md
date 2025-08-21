@@ -189,28 +189,17 @@ Each analysis module generates:
 - **Statistics files**: `*_stats` files containing detailed numerical summaries
 - **Structural data**: Tab-separated files with sequences and metadata for each motif type
 
-### Advanced Analysis
+### Additional Analysis
 - **Proximity heatmaps**: Occurrence and distance relationship visualizations
 - **Conservation logos**: Sequence conservation analysis for structural elements
 - **Statistical matrices**: Comprehensive numerical analysis of motif relationships
-
-## Key Functions
-
-The `functions.py` module provides core utilities:
-
-- `dot2ct()`: Convert dot-bracket to CT list format
-- `dot2bpmap()`: Convert dot-bracket to base-pair mapping
-- `ct2dot()`: Convert CT list back to dot-bracket notation
-- `find_stem()`: Identify stem structures with configurable parameters
-- `find_stem_loop()`: Detect stem-loop motifs
-- `find_bulge_interiorLoop()`: Locate bulges and interior loops within stems
 
 ## Configuration
 
 Key parameters can be adjusted in the analysis scripts:
 
 - **Maximum stem gap**: Default 6 nucleotides
-- **Minimum stem length**: Default 4-5 nucleotides
+- **Minimum stem length**: Default 4 nucleotides
 - **Maximum loop length**: Default 10 nucleotides for stem-loops
 - **Minimum stem length for logos**: Configurable in visualization scripts
 - **Distance analysis parameters**: Customizable in proximity analysis modules
@@ -222,10 +211,3 @@ If you use RNA_2D_stats in your research, please cite the appropriate manuscript
 ## Support
 
 For questions, bug reports, or suggestions, please contact Jacopo Manigrasso at: [jacopo.manigrasso@gmail.com](mailto:jacopo.manigrasso@gmail.com)
-
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
