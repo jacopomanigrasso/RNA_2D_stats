@@ -60,7 +60,7 @@
 
 
 # Read sequences and dot-brackets from file
-input_file = "Zavg_-2_top2000.txt"  # Replace with your actual file name
+input_file = "input_example_file.txt"  # Replace with your actual file name
 
 
 import os
