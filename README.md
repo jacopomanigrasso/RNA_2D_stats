@@ -16,7 +16,7 @@ A toolkit for analyzing RNA secondary structure motifs and generating statistica
 
 ## Overview
 
-RNA_2D_stats is a Python-based analysis pipeline designed to identify, classify, and analyze RNA secondary structure elements from sequence and dot-bracket notation data. The toolkit provides statistical analysis and visualization of structural motifs including stems, stem-loops, bulges, and interior loops, with analysis modules for proximity relationships and conservation patterns.
+RNA_2D_stats is a Python-based analysis pipeline designed to identify, classify, and analyze RNA secondary structure elements from sequence and dot-bracket notation data. The toolkit provides statistical analysis and visualization of structural motifs including stems, stem-loops, bulges, and interior loops, with analysis modules for proximity relationships and conservation patterns. Core functionality incorporates adapted functions from the IPyRSSA library.
 
 ## Features
 
