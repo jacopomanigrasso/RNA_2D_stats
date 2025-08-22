@@ -28,10 +28,9 @@ RNA_2D_stats is a Python-based analysis pipeline designed to identify, classify,
 - **Proximity Analysis**: Analyzes spatial relationships between structural elements
 
 ### Additional Analysis Modules
-- **Apical Loop-Internal Loop Analysis**: Analysis of distance relationships between apical loops and internal loops with heatmap visualizations
-- **Apical Loop-Bulge Analysis**: Distance analysis between apical loops and bulges with occurrence frequency mapping
-- **Stem Analysis**: Analysis of stem sequences connecting apical loops to structural motifs with 3' and 5' end conservation
-- **2D Motif-Stem Analysis**: Comprehensive analysis of stems connecting apical loops to nearest 2D motifs with sequence logo generation
+- **Apical Loop-Bulges / Internal Loop Analysis**: Analysis of distance relationships between apical loops and bulges/internal loops with occurrence frequency mapping heatmap visualizations
+- **Stem Analysis**: Analysis of stem sequences connecting apical loops to nearest 2D structural motifs with 3' and 5' end conservation and logo generation
+
 
 ### Visualization and Stats Modules
 - **Length Distribution Plots**: Both absolute counts and relative frequencies
